@@ -1,0 +1,75 @@
+html{
+    margin-top: 200px;
+}
+
+body{
+    display: flex;
+    margin: 0px;
+    height: 400px;
+    max-width: 800px;
+    background: url(../image/bg-repeat.jpg) no-repeat;
+    background-size: 800px 400px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+input{
+    margin: 5px 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:#3CCC87;
+    color: #FFFFFF;
+}
+
+.textos{
+    width: 400px;
+    padding: 150px 50px;
+    color:#FFFFFF;
+}
+
+.orientacao{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.campos{
+    width: 340px;
+    background-color: #FFFFFF;
+    margin: 15px 20px 15px 15px;
+    padding: 10px 0px; 
+}
+
+.campo-obrigatorio{
+    font-weight: 400;
+    font-size: 8px;
+    padding-left: 20px;
+    color: #F52E2E;
+}
+.esconder-campo{
+    opacity: 0;
+}
+
+.mensagem{
+    height: 80px;
+}
